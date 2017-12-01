@@ -1,0 +1,126 @@
+html
+{
+	height: 100%;
+}
+
+body
+{
+	padding-top: 50px;
+	background: grey;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+form
+{
+    color:black;
+}
+
+@media screen and (max-width: 506px) {
+    body {
+        font-size: 1.2em;
+    }
+    #zach
+    {
+        width: 80%;
+        height: 80%;
+    }
+
+    #logo
+    {
+        width: 70%;
+        height: 80%;
+    }
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 1.2em;
+    }
+
+    #logo
+    {
+        width: 70%;
+        height: 80%;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 1000px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.5em;
+    }
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color: white;
+}
+
+#homeContent
+{
+	text-align: left;
+	padding-top: 2.5%;
+}
+
+#center
+{
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+#brand-image
+{
+    height: 25px;
+}
+
+#left
+{
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+}
+
+#pad
+{
+    padding: 3.8%;
+}
+
+#red
+{
+    color: #ff4848; //CIN Red
+}
+
+#green
+{
+    color: #4CE564; //CIN Green
+}
+
+a
+{
+    color: #00A5FF;
+}
+
+h2
+{
+    text-decoration: underline;
+}
