@@ -1,0 +1,96 @@
+html
+{
+	height: 100%;
+}
+
+body
+{
+	padding-top: 70px;
+	background: url(./img/cover.jpg);
+	background-size: cover;
+	background-position: center;
+    /*background: grey;*/
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 1.2em;
+        background: grey;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 1000px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.5em;
+    }
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color: white;
+}
+
+#homeContent
+{
+	text-align: center;
+	padding-top: 20%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1
+{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr
+{
+    width: 28em;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#brand-image
+{
+    height: 25px;
+}
+
+#h1
+{
+    color: #ff4848; //CIN Red
+}
+
+#in
+{
+    color: #4CE564; //CIN Green
+}
+
+#need
+{
+    color: #00A5FF; //CIN Blue
+}

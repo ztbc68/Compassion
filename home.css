@@ -1,0 +1,27 @@
+body
+{
+	font-family: 'Dosis', sans-serif;
+	font-size: 10px;
+	background: black;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 6.0em;
+}
+
+div
+{
+	text-align: center;
+	color: #10FF10;
+	font-size: 2.5em;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+#specialLink
+{
+	text-decoration: none;
+	color: red;
+}
